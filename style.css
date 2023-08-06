@@ -1,0 +1,58 @@
+html,body{
+    
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8cm;
+    color: #d00909;
+
+}
+.ping1{
+    background-image: url(cat.jpg);
+    min-height: 100%;
+   
+}.ping2{
+    background-image: url(cat2.jpg);
+    min-height: 750px;
+}
+.ping3{
+    background-image: url(dog.jpg);
+    min-height: 500px;
+}
+.ping1, .ping2, .ping3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(80, 4, 4);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textBg{
+    background: #92f0d8;
+    color: #fff;
+    padding: 20px;
+   
+}
+.section{
+    padding: 50px,80px;
+    text-align: center;
+
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
